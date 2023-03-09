@@ -80,7 +80,6 @@ After doing that open terminal and run the following commands:
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 init /home/mohammadrokib/Codes/Private_BlockChain_2/genesis.json
 ```
 
-<br><br>
 With this command I am initializing the blockchain with the genesis file inside a folder which is the datadir. My datadir is /home/mohammadrokib/Codes/Private_BlockChain_2 and I kept the genesis file in the same location. Thus location of the genesis file is the same.<br>
 To find the directory just navigate to the folder then open terminal there and run the command **pwd** and it will return the folder you are in.<br><br>
 
@@ -89,7 +88,6 @@ Then run this command:
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 --networkid=54321 --nodiscover console
 ```
 
-<br><br>
 This command will start the blockchain from the datadir and a JavaScript console will comeup to interact with the blockchain.
 
 
