@@ -73,7 +73,9 @@ After finishing the installation create folder anywhere in your machine and crea
 ```
 
 <br>
-This json file defines our genesis block which is the first block of our Blockchain. Here inside "alloc" I have given an address and put some balance. You can change the values inside "alloc" as you like. But don't change the other values. After doing that open terminal and run the following commands:<br>
+This json file defines our genesis block which is the first block of our Blockchain. Here inside "alloc" I have given an address and put some balance. You can change the values inside "alloc" as you like. But don't change the other values.<br><br>
+
+After doing that open terminal and run the following commands:
 ```
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 init /home/mohammadrokib/Codes/Private_BlockChain_2/genesis.json
 ```
