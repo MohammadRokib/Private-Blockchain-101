@@ -88,33 +88,4 @@ Then run this command:
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 --networkid=54321 --nodiscover console
 ```
 
-This command will start the blockchain from the datadir and a JavaScript console will comeup to interact with the blockchain.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This command will start the blockchain from the datadir and a JavaScript console will comeup. We can interact with the blockchain from the console.
