@@ -47,7 +47,7 @@ GOROOT=go
 ```
 <br><br>
 
-After finishing the installation create folder anywhere in your machine and create a json file named **genesis.json** in that folder. Put the followings in the json file:
+After finishing the installation create a folder anywhere in your machine then create a json file named **genesis.json** inside that folder. Put the following in the json file:
 ```
 {
     "config": {
