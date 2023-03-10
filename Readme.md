@@ -45,7 +45,7 @@ Operating System: linux
 GOPATH=
 GOROOT=go
 ```
-<br><br><br>
+<br><br>
 
 After finishing the installation create folder anywhere in your machine and create a json file named **genesis.json** in that folder. Put the followings in the json file:
 ```
