@@ -135,3 +135,5 @@ To unlock the first account type the command
 ```
 personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
 ```
+Here,<br>
+```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the first account.
