@@ -160,4 +160,3 @@ It shows ```430000000000000000000``` for me. This is in **Wei**. It might show s
 1 Ether = 1000000000 Gwei = 1000000000000000000 Wei
 1 Gwei = 1000000000 Wei
 ```
-So wei is the smallest unit.
