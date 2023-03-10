@@ -168,3 +168,7 @@ But if I want to switch between accounts for mining first the account I want to 
 ```
 miner.setEtherbase("0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04")
 ```
+By doing that ```0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04``` has been set as the mining account. Now to start mining type ```miner.start()``` and let it run for a bit then type ```miner.stop()``` to stop mining. And then the balance can be checked by ```eth.getBalance("0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04")```
+<br>
+
+**Note: The public keys I am using here were generated in my PC. If you run the same commands the keys will be different for you. So if you are following this tutorial then make sure you use all the keys that were generated in your machine**
