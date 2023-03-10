@@ -124,3 +124,8 @@ The existence of the accounts can be verified by the command ```eth.accounts``` 
 ```
 I have created another account, that's why there are two accounts.<br><br>
 
+Let's check the balance of the first account. To do that run this command with the public key of the account
+```
+eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
+```
+It shows 0. Because the account is created just now so there is no balance. So how do we get some money? We will have to mine from that account to get money. And to mine the account have to be unlocked first.
