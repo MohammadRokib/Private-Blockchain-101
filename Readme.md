@@ -128,3 +128,11 @@ Let's check the balance of the first account. To do that type the command with t
 ```
 eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
 ```
+It shows ``0`` So, how do we get some money in it. We have mine to get money. In order to mine, the account have to be unlocked first. To unlock account type this command
+```
+personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "password", 0)
+```
+
+```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` public key of the account
+```password``` password of the account
+And ```0``` indicates how many seconds the account will remain unlocked. For zero its infinite.
