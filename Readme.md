@@ -122,3 +122,6 @@ I have created another account. The existence of the accounts can be verified by
 ```
 ["0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04"]
 ```
+<br>
+
+Let's check the balance of the accounts. To do that type the command ```eth.getBalance("publickey_of_the_account")```
