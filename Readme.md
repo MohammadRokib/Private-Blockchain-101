@@ -101,4 +101,8 @@ Here,
 
 ```--nodiscover``` this flag disables the peer discovery mechanisism in Geth. When geth is started with this flag, it will not try to discover other nodes on the network automatically.<br>
 
-```console``` this flag starts the Geth console, which is an interactive command-line interface that allows to interact with the private Ethereum node that is created here.
+```console``` this flag starts the Geth console, which is an interactive command-line interface that allows to interact with the private Ethereum node that is created here.<br><br>
+
+
+If all the above is done correctly then the terminal can be seen like this:
+![Screenshot from 2023-03-10 08-41-01](https://user-images.githubusercontent.com/60141836/224209733-63a5467b-d096-4235-8977-0be89b3e545f.png)
