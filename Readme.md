@@ -118,23 +118,9 @@ WARN [03-10|08:59:40.113] Please remember your password!
 
 Here ```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the account. And path of the key is given in the second line.<br><br>
 
-I have created another account. The existence of the accounts can be verified by the command ```eth.accounts``` the public keys of the created accounts can be seen in the output.
+The existence of the accounts can be verified by the command ```eth.accounts``` the public keys of the created accounts can be seen in the output.
 ```
 ["0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04"]
 ```
-<br>
+I have created another account, that's why there are two accounts.<br><br>
 
-Let's check the balance of the first account. To do that type the command with the public key of the account
-```
-eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
-```
-<br>
-It shows **0** So, how do we get some money in it. We have mine to get money. In order to mine, the account have to be unlocked first. To unlock account type this command:
-```
-personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "password", 0)
-```
-
-
-```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` public key of the account<br>
-```password``` password of the account<br>
-And ```0``` indicates how many seconds the account will remain unlocked. For zero its infinite.
