@@ -160,3 +160,9 @@ It shows ```430000000000000000000``` for me. This is in **Wei**. It might show s
 1 Ether = 1000000000 Gwei = 1000000000000000000 Wei
 1 Gwei = 1000000000 Wei
 ```
+<br>
+
+Now, what should I do if I want to mine with the second account. If there is only one account or if just the first account is being used for mining then the above mentioned process will do the job. But if I want to switch between accounts for mining first the account I want to mine from have to be unlocked with the ```personal.unlockAccount("public_key_of_the_account")``` command. Then to change the mining account type this command with the public key of the desired account
+```
+miner.setEtherbase("0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04")
+```
