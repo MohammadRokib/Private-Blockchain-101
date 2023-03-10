@@ -86,7 +86,7 @@ With this command I am initializing the blockchain inside datadir (a folder) wit
 ```
 geth --datadir="your_data_directory" init genesis_file_location/genesis.json
 ```
-<br><br>
+<br>
 
 To find the directory of any folder just navigate to the folder then open terminal there by ```right click``` and then ```Open in terminal``` then run the command ```pwd``` and it will return the directory of the folder you are in.<br><br>
 
