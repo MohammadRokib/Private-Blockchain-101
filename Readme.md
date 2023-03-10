@@ -116,4 +116,9 @@ WARN [03-10|08:59:40.113] Please remember your password!
 "0xe4e557bc95ad7bc81c458746a67e019125c5afb0"
 ```
 
-Here ```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the account. And path of the key is given in the second line.
+Here ```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the account. And path of the key is given in the second line.<br><br>
+
+I have created another account. The existence of the accounts can be verified by the command ```eth.accounts``` the public keys of the created accounts can be seen is the output.
+```
+["0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "0xf3a082396bec4243f6cb8bac5c3ffedaf7466c04"]
+```
