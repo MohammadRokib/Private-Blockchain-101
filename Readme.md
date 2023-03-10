@@ -95,4 +95,10 @@ Then run this command:
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 --networkid=54321 --nodiscover console
 ```
 
-This command will start the blockchain from the datadir and a JavaScript console will comeup. We can interact with the blockchain from the console.
+Here,
+```--networkid=54321``` is the network identifier for the private Ethereum network. This is a unique integer value which uniquely indicates to a specific network and avoids any conflict or confusion between two networks.
+<br>
+
+```--nodiscover``` this flag disables the peer discovery mechanisism in Geth. When geth is started with this flag, it will not try to discover other nodes on the network automatically.<br>
+
+```console``` This flag starts the Geth console, which is an interactive command-line interface that allows to interact with the private Ethereum node that is created here.
