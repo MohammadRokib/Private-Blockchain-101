@@ -124,4 +124,7 @@ I have created another account. The existence of the accounts can be verified by
 ```
 <br>
 
-Let's check the balance of the accounts. To do that type the command ```eth.getBalance("publickey_of_the_account")```
+Let's check the balance of the first account. To do that type the command with the public key of the account
+```
+eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
+```
