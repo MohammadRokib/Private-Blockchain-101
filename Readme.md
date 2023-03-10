@@ -73,9 +73,9 @@ After finishing the installation create a folder anywhere in your machine then c
 ```
 
 <br>
-This json file defines our genesis block which is the first block of our Blockchain. This part of the **genesis.json** file can be changed.<br>
+This json file defines our genesis block which is the first block of our Blockchain. The part inside **alloc** of the **genesis.json** file can be changed.<br>
 
-Here, inside "alloc" ```0x0000000000000000000000000000000000000001``` is an account which will probably work as the coinbase. And ```"balance": "1000000000000000000"``` is the balance of the coinbase. You can change the values inside "alloc" as you like. But don't change the other values.<br><br>
+Here, ```0x0000000000000000000000000000000000000001``` is an account which will probably work as the coinbase. And ```"balance": "1000000000000000000"``` is the balance of the coinbase. You can change the values inside "alloc" as you like. But don't change the other values.<br><br>
 
 After doing that open terminal and run the following commands:
 ```
