@@ -128,4 +128,10 @@ Let's check the balance of the first account. To do that run this command with t
 ```
 eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
 ```
-It shows 0. Because the account is created just now so there is no balance. So how do we get some money? We will have to mine from that account to get money. And to mine the account have to be unlocked first.
+It shows 0. Because the account is created just now so there is no balance. So how do we get some money? We will have to mine from that account to get money. And to mine the account have to be unlocked first.<br><br>
+
+
+To unlock the first account type the command
+```
+personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
+```
