@@ -154,3 +154,10 @@ Now, lets check the balance of the first account with this command
 ```
 eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
 ```
+
+It shows ```430000000000000000000``` for me. This is in **Wei**. It might show something else for you. It will depend on how long you have mined for. Ethereum has 3 units for their currency. Ether, Gwei and Wei.
+```
+1 Ether = 1000000000 Gwei = 1000000000000000000 Wei
+1 Gwei = 1000000000 Wei
+```
+So wei is the smallest unit. And the balance in
