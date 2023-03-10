@@ -1,6 +1,6 @@
 Assalamu Alaikum Wa Rahmatullah
 
-Today, we will see how to make a private Blockchain using geth. Geth is a go implementation of Ethereum. Geth can be downloaded from this link: [GNS3](https://www.gns3.com/software/download/). If you are following this then I would recommend downloading version 1.10.26. Or some of the commands I am going to use here will not work.
+Today, we will see how to make a private Blockchain using geth. Geth is a go implementation of Ethereum. Geth can be downloaded from this link: [GNS3](https://www.gns3.com/software/download/). If you are following this tutorial then I would recommend downloading version 1.10.26. Otherwise some of the commands I am going to use here will not work.
 
 To download version 1.10.26 first go to the download page then go down and keep clicking **Show Older Releases** under stable version list untill you find version 1.10.26. You can find 32-bit, 64-bit, ARMv5, ARMv6, ARM64, ARMv7 versions. Download the one which will be supported in your system. In my case the file is **geth-linux-amd64-1.10.26-e5eb32ac.tar.gz**
 
