@@ -134,6 +134,6 @@ It shows ``0`` So, how do we get some money in it. We have mine to get money. In
 personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "password", 0)
 ```
 
-```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` public key of the account
-```password``` password of the account
+```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` public key of the account<br>
+```password``` password of the account<br>
 And ```0``` indicates how many seconds the account will remain unlocked. For zero its infinite.
