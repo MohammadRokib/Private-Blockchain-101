@@ -82,7 +82,8 @@ After doing that open terminal and run the following commands:
 geth --datadir=/home/mohammadrokib/Codes/Private_BlockChain_2 init /home/mohammadrokib/Codes/Private_BlockChain_2/genesis.json
 ```
 
-With this command I am initializing the blockchain with the genesis file inside a folder which is the datadir. My datadir is /home/mohammadrokib/Codes/Private_BlockChain_2 and I kept the genesis file in the same location. Thus location of the genesis file is the same.<br>
+With this command I am initializing the blockchain inside datadir with **genesis.json** as the genesis/first block. For me the directory of datadir is ```/home/mohammadrokib/Codes/Private_BlockChain_2``` and I kept the genesis file in the same location.<br><br>
+
 To find the directory just navigate to the folder then open terminal there and run the command **pwd** and it will return the folder you are in.<br><br>
 
 Then run this command:
