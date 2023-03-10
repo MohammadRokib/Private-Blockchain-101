@@ -133,7 +133,9 @@ It shows 0. Because the account is created just now so there is no balance. So h
 
 To unlock the first account type the command
 ```
-personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
+personal.unlockAccount("0xe4e557bc95ad7bc81c458746a67e019125c5afb0", "password", 0)
 ```
 Here,<br>
-```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the first account.
+```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the first account.<br>
+```password``` is the password of the first account assigned by me.<br>
+```0``` idicates the number of seconds the account will remain unlocked. For zero its infinite.
