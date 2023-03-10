@@ -7,7 +7,7 @@ To download version 1.10.26 first go to the download page then go down and keep 
 After downloading
 
 ### For Linux
-Open terminal and navigate to the downloaded folder. Then run the following commands.
+Open terminal by clicking ```ctrl+alt+T``` then navigate to the folder where the file is downloaded. Then run the following commands.
 
 to unzip the file run this command:
 ```
