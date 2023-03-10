@@ -139,3 +139,18 @@ Here,<br>
 ```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the first account.<br>
 ```password``` is the password of the first account assigned by me.<br>
 ```0``` idicates the number of seconds the account will remain unlocked. For zero its infinite.
+<br><br>
+
+Now, to start mining type the command
+```
+miner.start()
+```
+It will start the mining process from the first account since it is the only unlocked account. After mining for a bit type the below command to stop mining
+```
+miner.stop()
+```
+
+Now, lets check the balance of the first account with this command
+```
+eth.getBalance("0xe4e557bc95ad7bc81c458746a67e019125c5afb0")
+```
