@@ -113,5 +113,7 @@ Now, I can interact with the Blockchain that I just created. First I will create
 INFO [03-10|08:59:40.112] Your new key was generated               address=0xe4E557bC95aD7Bc81C458746a67E019125C5AFb0
 WARN [03-10|08:59:40.113] Please backup your key file!             path=/home/mohammadrokib/Codes/Private_Blockchain_2/keystore/UTC--2023-03-10T02-59-34.369104495Z--e4e557bc95ad7bc81c458746a67e019125c5afb0
 WARN [03-10|08:59:40.113] Please remember your password! 
-**"0xe4e557bc95ad7bc81c458746a67e019125c5afb0"**
+"0xe4e557bc95ad7bc81c458746a67e019125c5afb0"
 ```
+
+Here ```0xe4e557bc95ad7bc81c458746a67e019125c5afb0``` is the public key of the account. And path of the key is given in the second line.
